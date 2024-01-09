@@ -17,7 +17,7 @@ export default function AddTopic(){
         }
     
         try {
-          const res = await fetch("http://localhost:3000/api/topics", {
+          const res = await fetch("https://to-do-revision-9o9gv6hn4-dikapitacion.vercel.app/api/topics", {
             method: "POST",
             headers: {
               "Content-type": "application/json",
